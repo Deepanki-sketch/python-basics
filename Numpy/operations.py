@@ -1,0 +1,20 @@
+import numpy as np
+arr1 = np.array([[1,2,3],[4,5,6]])
+arr2 = np.array([[7,8,9],[10,11,12]])
+sum = arr1+arr2
+multiplication = arr1*arr2
+arr = np.array([16,25,36,49,64])
+root = np.sqrt(arr)
+sum_new = arr.sum()
+maximum = arr.max()
+minimum = arr.min()
+print(sum)
+print(multiplication)
+print(root)
+print(sum_new)
+print(maximum)
+print(minimum)
+find = np.where(arr>25)
+print(find)
+non_zero = np.nonzero(arr)
+print(non_zero)
