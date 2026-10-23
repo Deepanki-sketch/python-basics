@@ -8,3 +8,4 @@ arr_new1 = arr.sum(axis=1)
 print(arr_new1) 
 for item in arr.flat:
     print(item)
+#code finished 
